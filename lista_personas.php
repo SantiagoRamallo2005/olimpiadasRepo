@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sistema Codigo Azul</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<?php 
+include("header.php");
+?>
+<div class="content">
+                        <div class="container-fluid pt-4 px-4">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-sm-10 align-self-center">
+                                    <div class="col-12">
+                                        <div class="bg-secondary rounded h-100 p-4">
+                                            <h4 class="mb-4">Tabla de personas</h4>
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">#</th>
+                                                            <th scope="col">DNI</th>
+                                                            <th scope="col">Nombre</th>
+                                                            <th scope="col">Apellido</th>
+                                                            <th scope="col">Telefono</th>
+                                                            <th scope="col">Localidad</th>
+                                                            <th scope="col">Domicilio</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>DNI ejemplo 1</td>
+                                                            <td>Nombre ejemplo 1</td>
+                                                            <td>Apellido ejemplo 1</td>
+                                                            <td>Telefono ejemplo 1</td>
+                                                            <td>Localidad ejemplo 1</td>
+                                                            <td>Domicilio ejemplo 1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>DNI ejemplo 2</td>
+                                                            <td>Nombre ejemplo 2</td>
+                                                            <td>Apellido ejemplo 2</td>
+                                                            <td>Telefono ejemplo 2</td>
+                                                            <td>Localidad ejemplo 2</td>
+                                                            <td>Domicilio ejemplo 2</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>DNI ejemplo 3</td>
+                                                            <td>Nombre ejemplo 3</td>
+                                                            <td>Apellido ejemplo 3</td>
+                                                            <td>Telefono ejemplo 3</td>
+                                                            <td>Localidad ejemplo 3</td>
+                                                            <td>Domicilio ejemplo 3</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <!-- Table End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
